@@ -172,7 +172,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 relative flex justify-center">
               <div className="relative w-full max-w-md h-[550px] rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-gray-50">
                 <Image
-                  src="/quem-somos.png"
+                  src="/trindade-hero.png"
                   alt="Casal Trindade"
                   fill
                   className="object-contain object-bottom hover:scale-105 transition-transform duration-700"
