@@ -54,7 +54,7 @@ export default function Footer() {
 
             {/* Facebook */}
             <a
-              href="https://facebook.com/TrindadeServicosResidenciaisJP"
+              href="https://www.facebook.com/profile.php?id=61587421491947"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-slate-800 p-2 rounded-full hover:bg-blue-700 hover:text-white transition-all"
@@ -65,7 +65,7 @@ export default function Footer() {
 
             {/* Threads */}
             <a
-              href="https://threads.net/@trindade_servicos_residenciais"
+              href="https://www.threads.com/@trindade_servicos_residenciais"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-slate-800 p-2 rounded-full hover:bg-white hover:text-black transition-all"
@@ -76,7 +76,7 @@ export default function Footer() {
 
             {/* OLX */}
             <a
-              href="https://www.olx.com.br/perfil/trindade-servicos-residenciais"
+              href="https://pb.olx.com.br/paraiba/servicos/instalacoes-e-servicos-gerais-em-residencias-1478564330?lis=ad_card_user_profile"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-slate-800 p-2 rounded-full hover:bg-purple-600 hover:text-white transition-all flex items-center gap-1 px-3"
