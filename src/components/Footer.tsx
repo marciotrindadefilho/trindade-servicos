@@ -5,6 +5,7 @@ import {
   MapPin,
   ExternalLink,
   AtSign,
+  Youtube,
 } from "lucide-react";
 
 export default function Footer() {
@@ -72,6 +73,17 @@ export default function Footer() {
               title="Threads"
             >
               <AtSign size={24} />
+            </a>
+
+            {/* YouTube */}
+            <a
+              href="https://www.youtube.com/@TrindadeServiçosResidenciaisJP?sub_confirmation=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-800 p-2 rounded-full hover:bg-red-600 hover:text-white transition-all"
+              title="YouTube"
+            >
+              <Youtube size={24} />
             </a>
 
             {/* OLX */}
