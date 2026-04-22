@@ -6,6 +6,7 @@ import {
   ExternalLink,
   AtSign,
   Youtube,
+  Globe,
 } from "lucide-react";
 
 export default function Footer() {
@@ -38,60 +39,71 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Coluna 3: Redes Sociais e OLX */}
+        {/* Coluna 3: Redes Sociais e Perfil Google */}
         <div>
           <h3 className="text-xl font-bold text-white mb-4">Redes Sociais</h3>
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
-            {/* Instagram */}
+            {/* Google Business Profile - Azul Google */}
+            <a
+              href="https://www.google.com/search?q=Trindade+Serviços+Residenciais+JP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#4285F4] text-white p-2 rounded-full hover:opacity-80 transition-all shadow-lg shadow-blue-500/20"
+              title="Ver no Google"
+            >
+              <Globe size={24} />
+            </a>
+
+            {/* Instagram - Gradiente Original */}
             <a
               href="https://instagram.com/trindade_servicos_residenciais"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800 p-2 rounded-full hover:bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 hover:text-white transition-all"
+              className="bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white p-2 rounded-full hover:opacity-80 transition-all shadow-lg shadow-pink-500/20"
               title="Instagram"
             >
               <Instagram size={24} />
             </a>
 
-            {/* Facebook */}
+            {/* Facebook - Azul Facebook */}
             <a
               href="https://www.facebook.com/profile.php?id=61587421491947"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800 p-2 rounded-full hover:bg-blue-700 hover:text-white transition-all"
+              className="bg-[#1877F2] text-white p-2 rounded-full hover:opacity-80 transition-all shadow-lg shadow-blue-600/20"
               title="Facebook"
             >
               <Facebook size={24} />
             </a>
 
-            {/* Threads */}
+            {/* Threads - Preto/Branco (Contraste) */}
             <a
               href="https://www.threads.com/@trindade_servicos_residenciais"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800 p-2 rounded-full hover:bg-white hover:text-black transition-all"
+              className="bg-white text-black p-2 rounded-full hover:bg-gray-200 transition-all shadow-lg"
               title="Threads"
             >
               <AtSign size={24} />
             </a>
 
-            {/* YouTube */}
+            {/* YouTube - Vermelho YouTube */}
             <a
               href="https://www.youtube.com/@TrindadeServiçosResidenciaisJP?sub_confirmation=1"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800 p-2 rounded-full hover:bg-red-600 hover:text-white transition-all"
+              className="bg-[#FF0000] text-white p-2 rounded-full hover:opacity-80 transition-all shadow-lg shadow-red-500/20"
               title="YouTube"
             >
               <Youtube size={24} />
             </a>
 
-            {/* OLX */}
+            {/* OLX - Roxo OLX */}
             <a
               href="https://pb.olx.com.br/paraiba/servicos/instalacoes-e-servicos-gerais-em-residencias-1478564330?lis=ad_card_user_profile"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800 p-2 rounded-full hover:bg-purple-600 hover:text-white transition-all flex items-center gap-1 px-3"
+              className="bg-[#8E44AD] text-white p-2 rounded-full hover:opacity-80 transition-all flex items-center gap-1 px-3 shadow-lg shadow-purple-500/20"
               title="Loja na OLX"
             >
               <ExternalLink size={18} />
