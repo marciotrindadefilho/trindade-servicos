@@ -100,7 +100,7 @@ export default function Footer() {
 
             {/* OLX - Roxo OLX */}
             <a
-              href="https://pb.olx.com.br/paraiba/servicos/instalacoes-e-servicos-gerais-em-residencias-1478564330?lis=ad_card_user_profile"
+              href="https://pb.olx.com.br/paraiba/servicos/seu-eletrodomestico-velho-novo-de-novo-1500072106?"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#8E44AD] text-white p-2 rounded-full hover:opacity-80 transition-all flex items-center gap-1 px-3 shadow-lg shadow-purple-500/20"
